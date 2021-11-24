@@ -18,8 +18,8 @@ npm i eslint@7.32.0 -DE
 
 ## Зависимости для разработки (`devDependencies`)
 
-- eslint@7.32.0
-- eslint-config-htmlacademy@5.0.0
+- eslint@7.32.0 *
+- eslint-config-htmlacademy@5.0.0 *
 - webpack@5.62.1 *
 - webpack-cli@4.9.1 *
 - webpack-dev-server@4.4.0 *
@@ -29,5 +29,5 @@ npm i eslint@7.32.0 -DE
 - @babel/plugin-proposal-optional-chaining@7.16.0 *
 - @babel/eslint-parser@7.16.0 *
 - babel-loader@8.2.3 *
-- css-loader@6.5.1
-- style-loader@3.3.1
+- css-loader@6.5.1 *
+- style-loader@3.3.1 *
