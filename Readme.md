@@ -1,7 +1,7 @@
 # Проект «Киноман»
 
 * Студент: [Алиса Гончарова](https://up.htmlacademy.ru/ecmascript/16/user/660371).
-* Наставник: `Неизвестно`.
+* Наставник: [Михаил Кислый](https://htmlacademy.ru/profile/smart-grizzly).
 
 ---
 
