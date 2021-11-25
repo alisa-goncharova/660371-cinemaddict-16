@@ -7,7 +7,6 @@ import { createShowButtonTemplate } from './view/films/site-show-button-view';
 import { createFilmDetailsPopup } from './view/popup/site-film-details-popup-view';
 
 const CARD_COUNT = 5;
-
 const siteHeaderElement = document.querySelector('.header');
 const siteMainElement = document.querySelector('.main');
 const siteFooterElement = document.querySelector('.footer');
@@ -21,6 +20,7 @@ const siteFilmsList = siteMainElement.querySelector('.films-list__container');
 for(let i = 0; i < CARD_COUNT; i++){ //отрисовываем каждый пункт фильма
   renderTemplate(siteFilmsList, createFilmCardTemplate(), RenderPosition.BEFOREEND);
 }
+
 renderTemplate(siteFilmsList, createShowButtonTemplate(), RenderPosition.AFTEREND); //отрисовка кнопки show more
 renderTemplate(siteFooterElement, createFilmDetailsPopup(), RenderPosition.AFTEREND); //отрисовка popup с описанием фильма
 
